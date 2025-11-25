@@ -101,7 +101,6 @@ function showError(input, message) {
     input.focus();
 }
 
-// Add animation on scroll
 function animateOnScroll() {
     const elements = document.querySelectorAll('.animate-on-scroll');
     
@@ -120,4 +119,5 @@ window.addEventListener('scroll', animateOnScroll);
 
 document.addEventListener('DOMContentLoaded', () => {
     animateOnScroll();
+
 });
